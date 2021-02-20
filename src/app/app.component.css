@@ -1,0 +1,7 @@
+.my-toolBar{
+  padding: 8px;
+  background: #3FD2D6;
+  background: -webkit-linear-gradient(top left, #3FD2D6, #FFFFFF);
+  background: -moz-linear-gradient(top left, #3FD2D6, #FFFFFF);
+  background: linear-gradient(to bottom right, #3FD2D6, #FFFFFF);
+}

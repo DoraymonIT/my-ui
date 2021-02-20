@@ -1,0 +1,179 @@
+.container {
+  padding-top: 50px;
+}
+.col-md-12 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+button:focus {
+  outline: none;
+}
+.my-button1 {
+  padding: 6px 25px 6px 25px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+  color: white;
+}
+.my-button2 {
+  padding: 6px 25px 6px 25px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+  color: white;
+  border-radius: 4px;
+}
+.my-button3 {
+  padding: 6px 25px 6px 25px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+  color: white;
+  border-radius: 40px;
+}
+.my-button4 {
+  padding: 6px 25px 6px 25px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  background: none;
+  font-weight: 800;
+  border-radius: 40px;
+}
+.my-button1-primary {
+  background-color: #0077ae;
+  border: 1px solid #0077ae;
+}
+.my-button1-secondary {
+  background-color: #bc4eca;
+  border: 1px solid #bc4eca;
+}
+.my-button1-success {
+  background-color: #00b74a;
+  border: 1px solid #00b74a;
+}
+.my-button1-danger {
+  background-color: #f93154;
+  border: 1px solid #f93154;
+}
+.my-button1-warning {
+  background-color: #ffaa00;
+  border: 1px solid #ffa900;
+}
+.my-button1-info {
+  background-color: #00cad1;
+  border: 1px solid #00cad1;
+}
+.my-button1-light {
+  background-color: #fbfbfb;
+  border: 1px solid #fbfbfb;
+  color: #262626;
+}
+.my-button1-dark {
+  background-color: #262626;
+  border: 1px solid #262626;
+}
+.my-button1-outline-primary {
+  border: 2px solid #0077ae;
+  color: #0077ae;
+}
+.my-button1-outline-secondary {
+  color: #bc4eca;
+  border: 2px solid #bc4eca;
+}
+.my-button1-outline-success {
+  color: #00b74a;
+  border: 2px solid #00b74a;
+}
+.my-button1-outline-danger {
+  color: #f93154;
+  border: 2px solid #f93154;
+}
+.my-button1-outline-warning {
+  color: #ffaa00;
+  border: 2px solid #ffa900;
+}
+.my-button1-outline-info {
+  color: #00cad1;
+  border: 2px solid #00cad1;
+}
+.my-button1-outline-light {
+  border: 2px solid rgb(255, 255, 255);
+  color: #262626;
+}
+.my-button1-outline-dark {
+  color: #262626;
+  border: 2px solid #262626;
+}
+.my-button1:hover,
+.my-button2:hover,
+.my-button3:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.my-button1-primary:hover {
+  background-color: #005b85;
+  border: 1px solid #005b85;
+}
+.my-button1-secondary:hover {
+  background-color: #913c9d;
+  border: 1px solid #913c9d;
+}
+.my-button1-success:hover {
+  background-color: #008535;
+  border: 1px solid #008535;
+}
+.my-button1-danger:hover {
+  background-color: #c2243e;
+  border: 1px solid #c2243e;
+}
+.my-button1-warning:hover {
+  background-color: #d89000;
+  border: 1px solid #d89000;
+}
+.my-button1-info:hover {
+  background-color: #00b2b8;
+  border: 1px solid #00b2b8;
+}
+.my-button1-light:hover {
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+}
+.my-button1-dark:hover {
+  background-color: #383838;
+  border: 1px solid #383838;
+}
+.my-button-sm {
+  padding: 2px 15px 2px 15px !important;
+}
+.my-button-md {
+  padding: 6px 25px 6px 25px;
+}
+.my-button-xl {
+  padding: 10px 35px 10px 35px !important;
+}
+.my-button-block {
+  width: 100%;
+}
+.my-button-icon {
+  border-radius: 50%;
+  /* padding: unset; */
+  padding: 9px 15px 9px 15px;
+}
+.my-button4:active {
+  animation-delay: 0s;
+  animation-duration: 10s;
+  animation-name: panoramic;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes panoramic {
+  0% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: rgb(167, 167, 167);
+  }
+  100% {
+    background-color: rgb(247, 247, 247);
+  }
+}

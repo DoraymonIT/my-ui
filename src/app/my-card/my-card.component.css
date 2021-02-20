@@ -1,0 +1,46 @@
+.container {
+  padding-top: 50px;
+}
+.col-md-3 {
+  margin-bottom: 10px;
+}
+.my-card1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+}
+.my-card2 {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 20px;
+}
+.my-card3 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  padding: 20px;
+}
+.my-card4 {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.my-card-content {
+  padding: 20px;
+}
+.my-padding1 {
+  padding: 10px 10px 0px 0px;
+}
+.my-card5 {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  background: #efefef;
+}
+.my-10-radius {
+  border-radius: 10px;
+}
+.my-20-radius {
+  border-radius: 20px;
+}
+.my-back {
+  background-image: url(../../assets/background-card2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-color {
+  color: rgb(235, 235, 235);
+}

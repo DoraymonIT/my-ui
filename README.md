@@ -19,8 +19,8 @@ Masks , Shadows .
 
 ### Cards :
 
-## Resource 1 : [Box Shadows](https://getcssscan.com/css-box-shadow-examples)
+#### Resource 1 : [Box Shadows](https://getcssscan.com/css-box-shadow-examples)
 
-## Resource 2 : Google Fonts : PT Sans .
+#### Resource 2 : Google Fonts : PT Sans .
 
 ##

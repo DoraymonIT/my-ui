@@ -5,7 +5,7 @@ input {
   outline: none;
 }
 .my-input {
-  border: 1px solid #ced4da;
+  border: 2px solid #495057;
   color: #495057;
   font-weight: 800;
   border-radius: 20px;
@@ -13,7 +13,7 @@ input {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .my-input1 {
-  border: 1px solid #ced4da;
+  border: 2px solid #495057;
   font-weight: 800;
   color: #495057;
   padding-left: 15px;
@@ -25,14 +25,32 @@ input {
   padding: 5px 5px 5px 15px;
 }
 .my-input:focus,
-.my-input1:focus {
+.my-input1:focus,
+.my-select:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #cde5ff;
+  border-color: #272727;
   outline: 0;
-  box-shadow: 0 0 0 0.1rem rgb(0 123 255 / 25%);
+  box-shadow: 0 0 0 3px rgb(187 187 187 / 50%);
 }
-
+.my-select {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 10px;
+  color: #495057;
+  border: 2px solid #495057;
+}
+.my-date {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-weight: 800;
+  border-radius: 10px;
+  color: #495057;
+  border: 2px solid #495057;
+}
 /*
 =====
 CORE STYLES

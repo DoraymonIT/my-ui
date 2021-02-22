@@ -26,7 +26,7 @@ input {
 }
 .my-input:focus,
 .my-input1:focus,
-.my-select:focus {
+.my-select:focus,.my-date:focus {
   color: #495057;
   background-color: #fff;
   border-color: #272727;

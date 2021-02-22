@@ -1,0 +1,39 @@
+@use "@material/checkbox";
+@use "@material/form-field";
+
+@include checkbox.core-styles;
+@include form-field.core-styles;
+
+.container {
+  padding-top: 50px;
+}
+input {
+  outline: none;
+}
+.my-input {
+  border: 1px solid #ced4da;
+  font-weight: 800;
+  border-radius: 20px;
+  padding-left: 15px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.my-input1 {
+  border: 1px solid #ced4da;
+  font-weight: 800;
+  border-radius: unset;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 4px;
+}
+.my-input-xl {
+  padding: 5px 5px 5px 15px;
+}
+.my-input:focus,
+.my-input1:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #cde5ff;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgb(0 123 255 / 25%);
+}
+
+

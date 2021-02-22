@@ -11,12 +11,10 @@ import { MyInputComponent } from './my-input/my-input.component';
     AppComponent,
     MyCardComponent,
     MyButtonComponent,
-    MyInputComponent
+    MyInputComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

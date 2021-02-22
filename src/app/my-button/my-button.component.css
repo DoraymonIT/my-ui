@@ -110,35 +110,35 @@ button:focus {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
-.my-button1-primary:hover {
+.my-button1-primary:active {
   background-color: #005b85;
   border: 1px solid #005b85;
 }
-.my-button1-secondary:hover {
+.my-button1-secondary:active {
   background-color: #913c9d;
   border: 1px solid #913c9d;
 }
-.my-button1-success:hover {
+.my-button1-success:active {
   background-color: #008535;
   border: 1px solid #008535;
 }
-.my-button1-danger:hover {
+.my-button1-danger:active {
   background-color: #c2243e;
   border: 1px solid #c2243e;
 }
-.my-button1-warning:hover {
+.my-button1-warning:active {
   background-color: #d89000;
   border: 1px solid #d89000;
 }
-.my-button1-info:hover {
+.my-button1-info:active {
   background-color: #00b2b8;
   border: 1px solid #00b2b8;
 }
-.my-button1-light:hover {
+.my-button1-light:active {
   background-color: #f3f3f3;
   border: 1px solid #f3f3f3;
 }
-.my-button1-dark:hover {
+.my-button1-dark:active {
   background-color: #383838;
   border: 1px solid #383838;
 }

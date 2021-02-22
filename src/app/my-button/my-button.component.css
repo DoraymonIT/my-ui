@@ -73,36 +73,36 @@ button:focus {
   border: 1px solid #262626;
 }
 .my-button1-outline-primary {
-  border: 2px solid #0077ae;
+  border: 1px solid #0077ae;
   color: #0077ae;
 }
 .my-button1-outline-secondary {
   color: #bc4eca;
-  border: 2px solid #bc4eca;
+  border: 1px solid #bc4eca;
 }
 .my-button1-outline-success {
   color: #00b74a;
-  border: 2px solid #00b74a;
+  border: 1px solid #00b74a;
 }
 .my-button1-outline-danger {
   color: #f93154;
-  border: 2px solid #f93154;
+  border: 1px solid #f93154;
 }
 .my-button1-outline-warning {
   color: #ffaa00;
-  border: 2px solid #ffa900;
+  border: 1px solid #ffa900;
 }
 .my-button1-outline-info {
   color: #00cad1;
-  border: 2px solid #00cad1;
+  border: 1px solid #00cad1;
 }
 .my-button1-outline-light {
-  border: 2px solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   color: #262626;
 }
 .my-button1-outline-dark {
   color: #262626;
-  border: 2px solid #262626;
+  border: 1px solid #262626;
 }
 .my-button1:hover,
 .my-button2:hover,

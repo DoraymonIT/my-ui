@@ -3,3 +3,6 @@
 body {
   font-family: "PT Sans", sans-serif;
 }
+.my-font-bold{
+  font-weight: 900;
+}

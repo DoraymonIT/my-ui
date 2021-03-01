@@ -1,0 +1,32 @@
+.my-nav1 {
+  background-color: #c5edff;
+  padding: 14px 0px 2px 0px;
+}
+.my-ul {
+  list-style: none;
+  display: flex;
+}
+.my-il {
+  padding-right: 45px;
+}
+.brand {
+  margin-right: 55px;
+  font-size: 17px;
+  color: #262626;
+}
+a {
+  text-decoration: none;
+  color: #262626;
+}
+.my-il:hover {
+  color: #828282;
+}
+.my-nav2 {
+  background-color: #919191;
+  padding: 14px 0px 2px 0px;
+}
+.brand2 {
+  margin-right: auto;
+  font-size: 17px;
+  color: #262626;
+}

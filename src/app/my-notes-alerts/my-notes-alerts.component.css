@@ -1,0 +1,38 @@
+.my-alert,
+.my-note {
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.my-alert-primary {
+  background-color: #c5edff;
+  border: 1px solid #86d9ff;
+}
+.my-alert-secondary {
+  background-color: #fbd8ff;
+  border: 1px solid #f499ff;
+}
+.my-alert-success {
+  background-color: #85ffb6;
+  border: 1px solid #26ff7d;
+}
+.my-alert-dark {
+  background-color: #d8d8d8;
+  border: 1px solid #686868;
+}
+.my-alert-warning {
+  background-color: #ffd37c;
+  border: 1px solid #ffbe3e;
+}
+.my-note-primary {
+  background-color: #c5edff;
+  border-left: 6px solid #86d9ff;
+}
+.my-note-warning {
+  background-color: #ffd37c;
+  border-left: 6px solid #ffbe3e;
+}
+.my-note-success {
+  background-color: #85ffb6;
+  border-left: 6px solid #26ff7d;
+}

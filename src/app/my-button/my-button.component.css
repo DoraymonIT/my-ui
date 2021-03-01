@@ -130,6 +130,7 @@ button:focus {
   background-color: #d89000;
   border: 1px solid #d89000;
 }
+
 .my-button1-info:active {
   background-color: #00b2b8;
   border: 1px solid #00b2b8;
@@ -141,6 +142,38 @@ button:focus {
 .my-button1-dark:active {
   background-color: #383838;
   border: 1px solid #383838;
+}
+.my-button1-warning:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #d89000;
+}
+.my-button1-dark:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #3f3f3f;
+}
+.my-button1-light:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #f3f3f3;
+}
+.my-button1-info:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #00b2b8;
+}
+.my-button1-primary:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #005b85;
+}
+.my-button1-secondary:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #913c9d;
+}
+.my-button1-success:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #008535;
+}
+.my-button1-danger:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px #c2243e;
 }
 .my-button-sm {
   padding: 2px 15px 2px 15px !important;
